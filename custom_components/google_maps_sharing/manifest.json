@@ -14,7 +14,7 @@
     "locationsharinglib"
   ],
   "requirements": [
-    "locationsharinglib==5.0.1"
+    "locationsharinglib>=5.0.1"
   ],
   "version": "1.0.1"
 }
