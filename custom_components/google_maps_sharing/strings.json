@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Google Maps (location sharing)",
+        "description": "Google account that others share their location with. Paste the content of an exported cookies.txt (recommended: Firefox private window). Leave empty to use the existing cookie file, including the one from the old google_maps.",
+        "data": {
+          "username": "Google account (email)",
+          "cookies": "Cookies (content of cookies.txt)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Google Maps cookies expired",
+        "description": "The session of {account} is no longer valid. Export new cookies and paste them here. Leave empty to re-read the cookie file.",
+        "data": {
+          "cookies": "Cookies (content of cookies.txt)"
+        }
+      }
+    },
+    "error": {
+      "invalid_cookies": "Invalid cookies or expired session: export them again.",
+      "no_cookies": "No cookies found: paste the content of cookies.txt.",
+      "cannot_connect": "Unable to reach Google Maps.",
+      "unknown": "Unexpected error, check the log."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Cookies updated, Google Maps works again."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Google Maps options",
+        "data": {
+          "scan_interval": "Update interval",
+          "max_gps_accuracy": "Minimum accuracy (discard less accurate positions)",
+          "rotate_cookies": "Automatically renew cookies"
+        }
+      }
+    }
+  }
+}

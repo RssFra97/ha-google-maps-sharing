@@ -1,0 +1,20 @@
+{
+  "domain": "google_maps_sharing",
+  "name": "Google Maps (condivisione posizione)",
+  "codeowners": [
+    "@rssfra97"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/rssfra97/ha-google-maps-sharing",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/rssfra97/ha-google-maps-sharing/issues",
+  "loggers": [
+    "locationsharinglib"
+  ],
+  "requirements": [
+    "locationsharinglib==5.0.1"
+  ],
+  "version": "1.0.1"
+}

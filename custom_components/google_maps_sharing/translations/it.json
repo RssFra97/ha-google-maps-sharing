@@ -1,0 +1,43 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Google Maps (condivisione posizione)",
+        "description": "Account Google con cui gli altri condividono la posizione. Incolla il contenuto del file cookies.txt esportato (consigliato: finestra privata di Firefox). Se lasci vuoto, viene usato il file dei cookie già presente, anche quello del vecchio google_maps.",
+        "data": {
+          "username": "Account Google (email)",
+          "cookies": "Cookie (contenuto di cookies.txt)"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Cookie di Google Maps scaduti",
+        "description": "La sessione di {account} non è più valida. Esporta nuovi cookie e incollali qui. Se lasci vuoto, viene riletto il file dei cookie.",
+        "data": {
+          "cookies": "Cookie (contenuto di cookies.txt)"
+        }
+      }
+    },
+    "error": {
+      "invalid_cookies": "Cookie non validi o sessione scaduta: esportali di nuovo.",
+      "no_cookies": "Nessun cookie trovato: incolla il contenuto di cookies.txt.",
+      "cannot_connect": "Impossibile contattare Google Maps.",
+      "unknown": "Errore imprevisto, controlla il log."
+    },
+    "abort": {
+      "already_configured": "Questo account è già configurato.",
+      "reauth_successful": "Cookie aggiornati, Google Maps funziona di nuovo."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Opzioni Google Maps",
+        "data": {
+          "scan_interval": "Intervallo di aggiornamento",
+          "max_gps_accuracy": "Precisione minima (scarta posizioni meno precise)",
+          "rotate_cookies": "Rinnova automaticamente i cookie"
+        }
+      }
+    }
+  }
+}
